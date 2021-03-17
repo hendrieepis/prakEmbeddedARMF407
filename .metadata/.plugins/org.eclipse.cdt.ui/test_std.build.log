@@ -1,0 +1,23 @@
+16:52:13 **** Incremental Build of configuration Release for project test_std ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/test_std/Release
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DSTM32F40_41xxx -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/test_std/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/Utilities" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/StdPeriph_Driver/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test_std.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -L"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/Release" -T"/home/hendri/MyWorkspace/workspaceAC6/test_std/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "test_std.elf" @"objects.list"  -lstm32f4discovery_stdperiph_lib
+Finished building target: test_std.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "test_std.elf" "test_std.bin"
+arm-none-eabi-size -B "test_std.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1372	   1076	   1056	   3504	    db0	test_std.elf
+ 
+
+16:52:13 Build Finished (took 253ms)
+

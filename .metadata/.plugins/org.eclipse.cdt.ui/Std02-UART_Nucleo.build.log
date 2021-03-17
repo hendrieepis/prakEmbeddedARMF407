@@ -1,0 +1,41 @@
+06:37:20 **** Incremental Build of configuration Release for project Std02-UART_Nucleo ****
+make all 
+Building file: ../startup/startup_stm32f401xx.s
+Invoking: MCU GCC Assembler
+/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/Release
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device" -g -o "startup/startup_stm32f401xx.o" "../startup/startup_stm32f401xx.s"
+Finished building: ../startup/startup_stm32f401xx.s
+ 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/Release
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DNUCLEO_F401RE -DSTM32F4 -DSTM32F401RETx -DSTM32 -DUSE_STDPERIPH_DRIVER -DSTM32F401xx -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/syscalls.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/Release
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DNUCLEO_F401RE -DSTM32F4 -DSTM32F401RETx -DSTM32 -DUSE_STDPERIPH_DRIVER -DSTM32F401xx -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/syscalls.d" -MT"src/syscalls.o" -o "src/syscalls.o" "../src/syscalls.c"
+Finished building: ../src/syscalls.c
+ 
+Building file: ../src/system_stm32f4xx.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/Release
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DNUCLEO_F401RE -DSTM32F4 -DSTM32F401RETx -DSTM32 -DUSE_STDPERIPH_DRIVER -DSTM32F401xx -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f4xx.d" -MT"src/system_stm32f4xx.o" -o "src/system_stm32f4xx.o" "../src/system_stm32f4xx.c"
+Finished building: ../src/system_stm32f4xx.c
+ 
+Building target: Std02-UART_Nucleo.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -L"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/Release" -T"/home/hendri/MyWorkspace/workspaceAC6/Std02-UART_Nucleo/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Std02-UART_Nucleo.elf" @"objects.list"  -lnucleo-f401re_stdperiph_lib
+Finished building target: Std02-UART_Nucleo.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Std02-UART_Nucleo.elf" "Std02-UART_Nucleo.bin"
+arm-none-eabi-size -B "Std02-UART_Nucleo.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2500	   1092	   1568	   5160	   1428	Std02-UART_Nucleo.elf
+ 
+
+06:37:20 Build Finished (took 721ms)
+

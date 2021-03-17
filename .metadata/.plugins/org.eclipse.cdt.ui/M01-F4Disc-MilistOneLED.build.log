@@ -1,0 +1,7 @@
+04:11:46 **** Clean-only build of configuration Debug for project M01-F4Disc-MilistOneLED ****
+make clean 
+rm -rf *
+ 
+
+04:11:47 Build Finished. 0 errors, 0 warnings. (took 789ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DISC_HAL_SPISlave/src/main.c&apos; to &apos;mainSPISlavev1.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.c" name="mainSPISlavev1.c" stamp="1459079788537" updateReferences="true"/>
+</session>

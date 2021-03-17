@@ -1,0 +1,6 @@
+05:21:59 **** Clean-only build of configuration Debug for project p01b-countingObject-function3 ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+
+05:21:59 Build Finished (took 673ms)
+

@@ -1,0 +1,13 @@
+/*
+ * hardwareinit.h
+ *
+ *  Created on: Nov 9, 2017
+ *      Author: hendri
+ */
+
+#ifndef HARDWAREINIT_H_
+#define HARDWAREINIT_H_
+// hardwareinit.h dan hardwareinit.c
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+#endif /* HARDWAREINIT_H_ */

@@ -1,0 +1,29 @@
+09:13:53 **** Incremental Build of configuration Debug for project MX_ExtInt ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building file: ../Src/stm32f4xx_it.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MX_ExtInt/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f4xx_it.d" -MT"Src/stm32f4xx_it.o" -o "Src/stm32f4xx_it.o" "../Src/stm32f4xx_it.c"
+Finished building: ../Src/stm32f4xx_it.c
+ 
+Building target: MX_ExtInt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F407VGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "MX_ExtInt.elf" @"objects.list"  
+Finished building target: MX_ExtInt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MX_ExtInt.elf" "MX_ExtInt.bin"
+arm-none-eabi-size "MX_ExtInt.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3404	     12	   1572	   4988	   137c	MX_ExtInt.elf
+ 
+
+09:13:54 Build Finished (took 617ms)
+

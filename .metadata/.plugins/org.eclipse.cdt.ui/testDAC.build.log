@@ -1,0 +1,6 @@
+16:30:17 **** Incremental Build of configuration Release for project testDAC ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:30:18 Build Finished (took 95ms)
+

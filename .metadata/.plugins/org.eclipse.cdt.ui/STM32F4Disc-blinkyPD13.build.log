@@ -1,0 +1,23 @@
+06:12:52 **** Incremental Build of configuration Debug for project STM32F4Disc-blinkyPD13 ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/wm8994" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/n25q256a" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/exc7200" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/stmpe811" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ov2640" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/Common" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ampire480272" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ls016b8uy" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/s5k5cag" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/s25fl512s" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/cs43l22" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ampire640480" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ili9341" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/stmpe1600" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/st7789h2" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/lsm303dlhc" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ili9325" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ft6x06" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/lis302dl" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/l3gd20" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/mfxstm32l152" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/otm8009a" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/lis3dsh" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/st7735" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/n25q128a" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/n25q512a" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/Components/ts3510" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/Utilities/STM32F4-Discovery" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/CMSIS/device" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: STM32F4Disc-blinkyPD13.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/hendri/MyWorkspace/workspaceAC6/STM32F4Disc-blinkyPD13/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32F4Disc-blinkyPD13.elf" @"objects.list"   -lm
+Finished building target: STM32F4Disc-blinkyPD13.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32F4Disc-blinkyPD13.elf" "STM32F4Disc-blinkyPD13.bin"
+arm-none-eabi-size "STM32F4Disc-blinkyPD13.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5620	   1088	   1092	   7800	   1e78	STM32F4Disc-blinkyPD13.elf
+ 
+
+06:12:54 Build Finished (took 1s.193ms)
+

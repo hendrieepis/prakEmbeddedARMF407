@@ -1,0 +1,42 @@
+08:33:20 **** Programming project p1b-countingObject-function on chip ****
+/opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.openocd.linux64_1.14.0.201705091103/tools/openocd/bin/openocd -f stm32.flash.7073473106354463719.cfg -s /home/hendri/MyWorkspace/workspaceAC6/p1b-countingObject-function -s /opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_2.0.0.201705161428/resources/openocd/st_scripts -c "program Debug/p1b-countingObject-function.elf verify exit" 
+Open On-Chip Debugger 0.10.0-dev-00278-ga53935e-dirty (2017-05-09-09:16)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 4000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 4000 kHz
+Info : STLINK v2 JTAG v14 API v2 SWIM v0 VID 0x0483 PID 0x3748
+Info : vid/pid are not identical: 0x0483/0x374B 0x0483/0x3748
+Info : using stlink api v2
+Info : Target voltage: 3.211534
+Info : STM32F407VGTx.cpu: hardware has 6 breakpoints, 4 watchpoints
+STM32F407VGTx.cpu: target state: halted
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08001500 msp: 0x20020000
+configuring PLL
+** Programming Started **
+auto erase enabled
+Info : device id = 0x10016413
+Info : flash size = 1024kbytes
+STM32F407VGTx.cpu: target state: halted
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x20000046 msp: 0x20020000
+wrote 16384 bytes from file Debug/p1b-countingObject-function.elf in 0.854136s (18.732 KiB/s)
+** Programming Finished **
+** Verify Started **
+STM32F407VGTx.cpu: target state: halted
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20020000
+STM32F407VGTx.cpu: target state: halted
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20020000
+verified 6912 bytes in 0.130992s (51.530 KiB/s)
+** Verified OK **
+shutdown command invoked
+
+08:33:21 Build Finished (took 1s.225ms)
+

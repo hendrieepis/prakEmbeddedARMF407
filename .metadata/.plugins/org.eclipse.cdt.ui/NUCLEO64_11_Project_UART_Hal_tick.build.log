@@ -1,0 +1,7 @@
+04:12:09 **** Clean-only build of configuration Debug for project NUCLEO64_11_Project_UART_Hal_tick ****
+make clean 
+rm -rf *
+ 
+
+04:12:10 Build Finished. 0 errors, 0 warnings. (took 771ms)
+

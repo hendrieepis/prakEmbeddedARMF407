@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.Declaration.style=1
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.Element.style=1
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.punctuation.style=1
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.string.style=2

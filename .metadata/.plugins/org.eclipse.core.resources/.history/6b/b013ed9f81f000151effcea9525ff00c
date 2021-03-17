@@ -1,0 +1,112 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Ac6
+  * @version V1.0
+  * @date    01-December-2013
+  * @brief   Default main function.
+  ******************************************************************************
+*/
+/*
+**     USART2 TX on PA2  USART2 RX on PA3
+** ftdi basic breakout dfrobot salah pin Tx seharusnya RX demikan sebaliknya
+** stm32 TX(PA2) <->  ftdi dfrobot pin TX (dekat DTR)
+** stm32 RX(PA3) <->  ftdi dfrobot pin RX
+** stm32 GND     <->  ftdi dfrobot pin GND
+** ftdi dfrobot pin VCC tidak dihubungkan
+*/
+
+// *****************include  here **********
+#include "stm32f4xx.h"
+//-------------------------------------------------
+
+// *****************prototipe function here **********
+void USART2_init(void);
+void USART2_putchar(uint16_t Data);
+void USART2_putstr(volatile char *Data);
+void Delay(__IO uint64_t nCount);
+//-------------------------------------------------
+
+// *****************user variable here **********
+uint16_t datarx;
+//-------------------------------------------------
+
+// *****************Main function here **********
+// *****************Main function here **********
+// *****************Main function here **********
+int main(void){
+
+	USART2_init();
+	USART2_putstr("Hello world \n\r");
+	while(1){
+		while(!USART_GetFlagStatus(USART2,USART_FLAG_RXNE));
+		USART_SendData(USART2,USART_ReceiveData(USART2));
+
+	}
+
+}
+
+
+
+void USART2_init(void){
+
+	GPIO_InitTypeDef GPIO_InitStructure;
+	USART_InitTypeDef USART_InitStructure;
+
+	/* enable peripheral clock for USART2 */
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
+
+
+	/* GPIOA clock enable */
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+
+	/* GPIOA Configuration:  USART2 TX on PA2 */
+	/* GPIOA Configuration:  USART2 RX on PA3 */
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2|GPIO_Pin_3;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+	GPIO_Init(GPIOA, &GPIO_InitStructure);
+
+	/* Connect USART2 pins to AF2 */
+	// TX = PA2
+	GPIO_PinAFConfig(GPIOA, GPIO_PinSource2, GPIO_AF_USART2);
+	GPIO_PinAFConfig(GPIOA, GPIO_PinSource3, GPIO_AF_USART2);
+
+	USART_InitStructure.USART_BaudRate = 9600;
+	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+	USART_InitStructure.USART_StopBits = USART_StopBits_1;
+	USART_InitStructure.USART_Parity = USART_Parity_No;
+	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+	USART_InitStructure.USART_Mode =  USART_Mode_Rx | USART_Mode_Tx;
+	USART_Init(USART2, &USART_InitStructure);
+
+	USART_Cmd(USART2, ENABLE); // enable USART2
+
+}
+
+void Delay(__IO uint64_t nCount)
+{
+	while(nCount--)
+	{
+	}
+}
+
+
+void USART2_putchar(uint16_t Data)
+{
+	while(!USART_GetFlagStatus(USART2,USART_FLAG_TXE));
+	USART_SendData(USART2, Data); // defined in stm32f4xx_usart.h
+}
+
+void USART2_putstr(volatile char *Data)
+{
+
+	while(*Data)
+	{
+		while(!USART_GetFlagStatus(USART2,USART_FLAG_TXE));
+		USART_SendData(USART2, *Data); // defined in stm32f4xx_usart.h
+		Data++;
+	}
+}

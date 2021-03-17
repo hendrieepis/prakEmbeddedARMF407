@@ -1,0 +1,14 @@
+/*
+ * sensor.h
+ *
+ *  Created on: Mar 16, 2021
+ *      Author: hendri
+ */
+
+#ifndef SENSOR_H_
+#define SENSOR_H_
+// sensor.c dan sensor.h
+uint8_t sensorDetected(void);
+
+
+#endif /* SENSOR_H_ */

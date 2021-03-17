@@ -1,0 +1,7 @@
+14:41:25 **** Clean-only build of configuration Debug for project 04b-SEOSObjectDetectedwithReset ****
+make clean 
+rm -rf *
+ 
+
+14:41:25 Build Finished (took 275ms)
+

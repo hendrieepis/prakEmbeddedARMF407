@@ -1,0 +1,7 @@
+04:12:05 **** Clean-only build of configuration Debug for project NUCLEO64_06_Blinky_noDelay_Btn_nonBlocking ****
+make clean 
+rm -rf *
+ 
+
+04:12:06 Build Finished. 0 errors, 0 warnings. (took 822ms)
+

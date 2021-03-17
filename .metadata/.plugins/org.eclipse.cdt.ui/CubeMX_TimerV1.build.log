@@ -1,0 +1,23 @@
+16:55:41 **** Incremental Build of configuration Debug for project CubeMX_TimerV1 ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_TimerV1/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_TimerV1/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_TimerV1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_TimerV1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_TimerV1/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_TimerV1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: CubeMX_TimerV1.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F407VGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "CubeMX_TimerV1.elf" @"objects.list"  
+Finished building target: CubeMX_TimerV1.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "CubeMX_TimerV1.elf" "CubeMX_TimerV1.bin"
+arm-none-eabi-size "CubeMX_TimerV1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4500	     12	   1628	   6140	   17fc	CubeMX_TimerV1.elf
+ 
+
+16:55:41 Build Finished (took 371ms)
+

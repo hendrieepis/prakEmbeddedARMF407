@@ -1,0 +1,7 @@
+05:21:55 **** Clean-only build of configuration Debug for project blinkyMinistm ****
+make clean 
+rm -rf *
+ 
+
+05:21:56 Build Finished (took 712ms)
+

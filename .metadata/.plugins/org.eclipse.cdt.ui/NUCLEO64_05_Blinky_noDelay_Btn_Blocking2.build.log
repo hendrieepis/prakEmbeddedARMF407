@@ -1,0 +1,35 @@
+02:21:07 **** Incremental Build of configuration Debug for project NUCLEO64_05_Blinky_noDelay_Btn_Blocking2 ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F446xx -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F446xx -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F446xx -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_05_Blinky_noDelay_Btn_Blocking2/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+ 
+Building target: NUCLEO64_05_Blinky_noDelay_Btn_Blocking2.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F446RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "NUCLEO64_05_Blinky_noDelay_Btn_Blocking2.elf" @"objects.list"   -lm
+Finished building target: NUCLEO64_05_Blinky_noDelay_Btn_Blocking2.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "NUCLEO64_05_Blinky_noDelay_Btn_Blocking2.elf" "NUCLEO64_05_Blinky_noDelay_Btn_Blocking2.bin"
+arm-none-eabi-size "NUCLEO64_05_Blinky_noDelay_Btn_Blocking2.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6200	     20	   1652	   7872	   1ec0	NUCLEO64_05_Blinky_noDelay_Btn_Blocking2.elf
+ 
+
+02:21:08 Build Finished (took 1s.431ms)
+

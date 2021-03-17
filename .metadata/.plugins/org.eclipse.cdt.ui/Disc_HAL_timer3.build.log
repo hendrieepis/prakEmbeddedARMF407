@@ -1,0 +1,23 @@
+09:15:13 **** Incremental Build of configuration Debug for project Disc_HAL_timer3 ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/Disc_HAL_timer3/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/Disc_HAL_timer3/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/Disc_HAL_timer3/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/Disc_HAL_timer3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/Disc_HAL_timer3/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/Disc_HAL_timer3/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/Disc_HAL_timer3/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: Disc_HAL_timer3.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F407VGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Disc_HAL_timer3.elf" @"objects.list"  
+Finished building target: Disc_HAL_timer3.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Disc_HAL_timer3.elf" "Disc_HAL_timer3.bin"
+arm-none-eabi-size "Disc_HAL_timer3.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4404	     12	   1628	   6044	   179c	Disc_HAL_timer3.elf
+ 
+
+09:15:13 Build Finished (took 482ms)
+

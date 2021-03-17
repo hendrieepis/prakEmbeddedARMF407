@@ -1,0 +1,7 @@
+05:21:56 **** Clean-only build of configuration Debug for project blinkyTestCube ****
+make clean 
+rm -rf *
+ 
+
+05:21:57 Build Finished (took 788ms)
+

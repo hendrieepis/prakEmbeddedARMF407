@@ -1,0 +1,37 @@
+#include <stdlib.h>
+#include <string.h>
+#include "stm32f4xx_conf.h"
+
+
+void SysTick_Handler(void);
+
+
+int main(void)
+{
+
+	GPIO_InitTypeDef		GPIO_Setup;
+	/* GPIOD Periph clock enable */
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
+
+	/* Configure GPIOs to drive LEDs: */
+	GPIO_Setup.GPIO_Pin		= GPIO_Pin_12 ;
+	GPIO_Setup.GPIO_Mode	= GPIO_Mode_OUT;
+	GPIO_Setup.GPIO_OType	= GPIO_OType_PP;
+	GPIO_Setup.GPIO_Speed	= GPIO_Speed_2MHz;
+	GPIO_Setup.GPIO_PuPd	= GPIO_PuPd_NOPULL;
+	GPIO_Init(GPIOD, &GPIO_Setup);
+
+	/* Switch off LEDs: */
+	GPIO_ResetBits(GPIOD, GPIO_Pin_12) ;
+	/* Configure SysTick for 1ms interrupts:  minimal 100ms */
+	SysTick_Config(SystemCoreClock / 500000);  //1ms
+	/* Capture error */
+	while (1);
+	return(0);
+}
+
+
+void SysTick_Handler(void)
+{
+	GPIO_ToggleBits(GPIOD, GPIO_Pin_12);
+}

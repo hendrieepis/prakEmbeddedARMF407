@@ -1,0 +1,19 @@
+11:24:43 **** Build of configuration Debug for project 01a-countingObject ****
+make all 
+Building file: ../startup/startup_stm32f407xx.s
+Invoking: MCU GCC Assembler
+/home/hendri/MyWorkspace/workspaceAC6/01a-countingObject/Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_hal_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/01a-countingObject/inc" -g -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+Finished building: ../startup/startup_stm32f407xx.s
+ 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/01a-countingObject/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_hal_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/01a-countingObject/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:11:23: fatal error: stm32f4xx.h: No such file or directory
+src/subdir.mk:27: recipe for target 'src/main.o' failed
+compilation terminated.
+make: *** [src/main.o] Error 1
+
+11:24:43 Build Finished (took 128ms)
+

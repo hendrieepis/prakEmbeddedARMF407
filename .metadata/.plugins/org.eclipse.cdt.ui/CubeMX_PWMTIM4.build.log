@@ -1,0 +1,23 @@
+15:43:42 **** Incremental Build of configuration Debug for project CubeMX_PWMTIM4 ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_PWMTIM4/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_PWMTIM4/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_PWMTIM4/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_PWMTIM4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_PWMTIM4/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_PWMTIM4/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/CubeMX_PWMTIM4/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: CubeMX_PWMTIM4.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F407VGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "CubeMX_PWMTIM4.elf" @"objects.list"  
+Finished building target: CubeMX_PWMTIM4.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "CubeMX_PWMTIM4.elf" "CubeMX_PWMTIM4.bin"
+arm-none-eabi-size "CubeMX_PWMTIM4.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4316	     12	   1628	   5956	   1744	CubeMX_PWMTIM4.elf
+ 
+
+15:43:43 Build Finished (took 520ms)
+

@@ -1,0 +1,9 @@
+1588843886508	Delete resource 'p05b-State_input_DoorLock/p01b-countingObject-function Run.cfg'
+1588843889004	Delete resource 'p05b-State_input_DoorLock/p02a-struktur-objectCounting Run.cfg'
+1588843908089	Delete resource 'p05b-State_input_DoorLock/p03a-Timeout Run.cfg'
+1588843910454	Delete resource 'p05b-State_input_DoorLock/p03b-Timeout-uart2-reset Run.cfg'
+1588843913722	Delete resource 'p05b-State_input_DoorLock/p04a-SEOSObjectDetected Run.cfg'
+1588843916022	Delete resource 'p05b-State_input_DoorLock/p04b-SEOSObjectDetected-reset-exam Run.cfg'
+1588843922830	Delete resource 'p05b-State_input_DoorLock/p05a-State_Time Run.cfg'
+1588843926768	Delete resource 'p05b-State_input_DoorLock/p05b-State_input_DoorLock_converter.log'
+1588848774439	Delete 8 resources

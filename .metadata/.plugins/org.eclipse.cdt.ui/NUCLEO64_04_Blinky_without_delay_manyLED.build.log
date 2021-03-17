@@ -1,0 +1,7 @@
+04:12:04 **** Clean-only build of configuration Debug for project NUCLEO64_04_Blinky_without_delay_manyLED ****
+make clean 
+rm -rf *
+ 
+
+04:12:04 Build Finished. 0 errors, 0 warnings. (took 773ms)
+

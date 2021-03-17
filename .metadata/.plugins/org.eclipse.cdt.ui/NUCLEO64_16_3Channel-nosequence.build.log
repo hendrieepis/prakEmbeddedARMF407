@@ -1,0 +1,7 @@
+04:12:14 **** Clean-only build of configuration Debug for project NUCLEO64_16_3Channel-nosequence ****
+make clean 
+rm -rf *
+ 
+
+04:12:15 Build Finished. 0 errors, 0 warnings. (took 936ms)
+

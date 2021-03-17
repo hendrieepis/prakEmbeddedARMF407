@@ -1,0 +1,7 @@
+04:12:39 **** Clean-only build of configuration Release for project testDAC2 ****
+make clean 
+rm -rf *
+ 
+
+04:12:40 Build Finished. 0 errors, 0 warnings. (took 779ms)
+

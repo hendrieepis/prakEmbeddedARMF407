@@ -1,0 +1,7 @@
+04:12:12 **** Clean-only build of configuration Debug for project NUCLEO64_14_ADC_POLLING_volt ****
+make clean 
+rm -rf *
+ 
+
+04:12:13 Build Finished. 0 errors, 0 warnings. (took 773ms)
+

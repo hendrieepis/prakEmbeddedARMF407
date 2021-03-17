@@ -1,0 +1,7 @@
+04:12:16 **** Clean-only build of configuration Debug for project NUCLEO64_18_ADC_INT_Callback ****
+make clean 
+rm -rf *
+ 
+
+04:12:17 Build Finished. 0 errors, 0 warnings. (took 775ms)
+

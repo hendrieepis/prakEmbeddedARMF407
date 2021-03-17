@@ -1,0 +1,10 @@
+13:57:34 **** Incremental Build of configuration Debug for project p05a-State_Time_new ****
+make all 
+arm-none-eabi-size   p05a-State_Time_new.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12472	    112	   1208	  13792	   35e0	p05a-State_Time_new.elf
+Finished building: default.size.stdout
+ 
+
+13:57:34 Build Finished. 0 errors, 0 warnings. (took 160ms)
+

@@ -1,0 +1,21 @@
+17:25:04 **** Build of configuration Debug for project 06a-SCHTimeTrigger ****
+make all 
+Building file: ../startup/startup_stm32f407xx.s
+Invoking: MCU GCC Assembler
+/home/hendri/MyWorkspace/workspaceAC6/06a-SCHTimeTrigger/Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"/home/hendri/MyWorkspace/workspaceAC6/06a-SCHTimeTrigger/inc" -g -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+Finished building: ../startup/startup_stm32f407xx.s
+ 
+Building file: ../src/hardwareinit.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/06a-SCHTimeTrigger/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceAC6/06a-SCHTimeTrigger/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/hardwareinit.d" -MT"src/hardwareinit.o" -o "src/hardwareinit.o" "../src/hardwareinit.c"
+../src/hardwareinit.c:1:10: fatal error: stm32f4xx.h: No such file or directory
+ #include "stm32f4xx.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:36: recipe for target 'src/hardwareinit.o' failed
+make: *** [src/hardwareinit.o] Error 1
+
+17:25:04 Build Finished (took 317ms)
+

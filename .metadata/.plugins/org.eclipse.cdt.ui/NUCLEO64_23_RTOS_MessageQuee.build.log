@@ -1,0 +1,32 @@
+10:28:06 **** Build of configuration Debug for project NUCLEO64_23_RTOS_MessageQuee ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F446xx -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Middlewares/Third_Party/FreeRTOS/Source/include" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_23_RTOS_MessageQuee/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'StartTask02':
+../Src/main.c:299:4: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+    memset(buff,0,sizeof(buff)); //bersihkan buffer
+    ^~~~~~
+../Src/main.c:299:4: warning: incompatible implicit declaration of built-in function 'memset'
+../Src/main.c:299:4: note: include '<string.h>' or provide a declaration of 'memset'
+../Src/main.c:300:26: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint8_t * {aka unsigned char *}' [-Wformat=]
+    sprintf(buff,"count: %d\n\r",(uint8_t*)result.value.v);
+                          ^
+Finished building: ../Src/main.c
+ 
+Building target: NUCLEO64_23_RTOS_MessageQuee.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F446RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "NUCLEO64_23_RTOS_MessageQuee.elf" @"objects.list"   -lm
+Finished building target: NUCLEO64_23_RTOS_MessageQuee.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "NUCLEO64_23_RTOS_MessageQuee.elf" "NUCLEO64_23_RTOS_MessageQuee.bin"
+arm-none-eabi-size "NUCLEO64_23_RTOS_MessageQuee.elf"
+   text	   data	    bss	    dec	    hex	filename
+  17268	    124	  17508	  34900	   8854	NUCLEO64_23_RTOS_MessageQuee.elf
+ 
+
+10:28:07 Build Finished (took 1s.32ms)
+

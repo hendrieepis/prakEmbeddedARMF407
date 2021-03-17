@@ -1,0 +1,15 @@
+18:43:17 **** Incremental Build of configuration Debug for project 03b-Timeout-reset ****
+make all 
+Building file: ../src/counter.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/03b-Timeout-reset/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceAC6/03b-Timeout-reset/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/counter.d" -MT"src/counter.o" -o "src/counter.o" "../src/counter.c"
+../src/counter.c:10:31: fatal error: stm32f4_discovery.h: No such file or directory
+ #include "stm32f4_discovery.h"
+                               ^
+compilation terminated.
+src/subdir.mk:36: recipe for target 'src/counter.o' failed
+make: *** [src/counter.o] Error 1
+
+18:43:17 Build Finished (took 220ms)
+

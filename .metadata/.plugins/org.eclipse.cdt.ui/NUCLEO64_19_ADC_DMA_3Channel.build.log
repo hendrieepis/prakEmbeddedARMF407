@@ -1,0 +1,7 @@
+04:12:17 **** Clean-only build of configuration Debug for project NUCLEO64_19_ADC_DMA_3Channel ****
+make clean 
+rm -rf *
+ 
+
+04:12:18 Build Finished. 0 errors, 0 warnings. (took 825ms)
+

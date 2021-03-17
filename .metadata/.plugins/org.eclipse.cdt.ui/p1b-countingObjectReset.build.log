@@ -1,0 +1,17 @@
+11:27:37 **** Build of configuration Debug for project p1b-countingObjectReset ****
+make all 
+Building target: p1b-countingObjectReset.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/hendri/MyWorkspace/workspaceAC6/p1b-countingObjectReset/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "p1b-countingObjectReset.elf" @"objects.list"  
+Finished building target: p1b-countingObjectReset.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "p1b-countingObjectReset.elf" "p1b-countingObjectReset.bin"
+arm-none-eabi-size "p1b-countingObjectReset.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5768	   1084	   1128	   7980	   1f2c	p1b-countingObjectReset.elf
+ 
+
+11:27:37 Build Finished (took 432ms)
+

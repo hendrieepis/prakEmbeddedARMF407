@@ -1,0 +1,202 @@
+06:55:30 **** Incremental Build of configuration Release for project nucleo-f091rc_hal_lib ****
+make all 
+Building file: ../Utilities/STM32F0xx-Nucleo/stm32f0xx_nucleo.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Utilities/STM32F0xx-Nucleo/stm32f0xx_nucleo.d" -MT"Utilities/STM32F0xx-Nucleo/stm32f0xx_nucleo.o" -o "Utilities/STM32F0xx-Nucleo/stm32f0xx_nucleo.o" "../Utilities/STM32F0xx-Nucleo/stm32f0xx_nucleo.c"
+Finished building: ../Utilities/STM32F0xx-Nucleo/stm32f0xx_nucleo.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal.d" -MT"HAL_Driver/Src/stm32f0xx_hal.o" -o "HAL_Driver/Src/stm32f0xx_hal.o" "../HAL_Driver/Src/stm32f0xx_hal.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_adc.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_adc.d" -MT"HAL_Driver/Src/stm32f0xx_hal_adc.o" -o "HAL_Driver/Src/stm32f0xx_hal_adc.o" "../HAL_Driver/Src/stm32f0xx_hal_adc.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_adc.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_adc_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_adc_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_adc_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_adc_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_adc_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_adc_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_can.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_can.d" -MT"HAL_Driver/Src/stm32f0xx_hal_can.o" -o "HAL_Driver/Src/stm32f0xx_hal_can.o" "../HAL_Driver/Src/stm32f0xx_hal_can.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_can.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_cec.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_cec.d" -MT"HAL_Driver/Src/stm32f0xx_hal_cec.o" -o "HAL_Driver/Src/stm32f0xx_hal_cec.o" "../HAL_Driver/Src/stm32f0xx_hal_cec.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_cec.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_comp.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_comp.d" -MT"HAL_Driver/Src/stm32f0xx_hal_comp.o" -o "HAL_Driver/Src/stm32f0xx_hal_comp.o" "../HAL_Driver/Src/stm32f0xx_hal_comp.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_comp.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_cortex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_cortex.o" -o "HAL_Driver/Src/stm32f0xx_hal_cortex.o" "../HAL_Driver/Src/stm32f0xx_hal_cortex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_cortex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_crc.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_crc.d" -MT"HAL_Driver/Src/stm32f0xx_hal_crc.o" -o "HAL_Driver/Src/stm32f0xx_hal_crc.o" "../HAL_Driver/Src/stm32f0xx_hal_crc.c"
+../HAL_Driver/Src/stm32f0xx_hal_crc.c: In function 'CRC_Handle_8':
+../HAL_Driver/Src/stm32f0xx_hal_crc.c:467:8: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        *(uint16_t*) (&hcrc->Instance->DR) = ((uint16_t)pBuffer[4*i]<<8) | (uint16_t)pBuffer[4*i+1];
+        ^
+../HAL_Driver/Src/stm32f0xx_hal_crc.c:471:8: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+        *(uint16_t*) (&hcrc->Instance->DR) = ((uint16_t)pBuffer[4*i]<<8) | (uint16_t)pBuffer[4*i+1];
+        ^
+../HAL_Driver/Src/stm32f0xx_hal_crc.c: In function 'CRC_Handle_16':
+../HAL_Driver/Src/stm32f0xx_hal_crc.c:503:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     *(uint16_t*) (&hcrc->Instance->DR) = pBuffer[2*i]; 
+     ^
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_crc.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_crc_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_crc_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_crc_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_crc_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_crc_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_crc_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_dac.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_dac.d" -MT"HAL_Driver/Src/stm32f0xx_hal_dac.o" -o "HAL_Driver/Src/stm32f0xx_hal_dac.o" "../HAL_Driver/Src/stm32f0xx_hal_dac.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_dac.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_dac_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_dac_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_dac_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_dac_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_dac_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_dac_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_dma.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_dma.d" -MT"HAL_Driver/Src/stm32f0xx_hal_dma.o" -o "HAL_Driver/Src/stm32f0xx_hal_dma.o" "../HAL_Driver/Src/stm32f0xx_hal_dma.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_dma.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_flash.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_flash.d" -MT"HAL_Driver/Src/stm32f0xx_hal_flash.o" -o "HAL_Driver/Src/stm32f0xx_hal_flash.o" "../HAL_Driver/Src/stm32f0xx_hal_flash.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_flash.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_flash_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_flash_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_flash_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_flash_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_flash_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_flash_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_gpio.d" -MT"HAL_Driver/Src/stm32f0xx_hal_gpio.o" -o "HAL_Driver/Src/stm32f0xx_hal_gpio.o" "../HAL_Driver/Src/stm32f0xx_hal_gpio.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_gpio.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_i2c.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_i2c.d" -MT"HAL_Driver/Src/stm32f0xx_hal_i2c.o" -o "HAL_Driver/Src/stm32f0xx_hal_i2c.o" "../HAL_Driver/Src/stm32f0xx_hal_i2c.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_i2c.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_i2s.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_i2s.d" -MT"HAL_Driver/Src/stm32f0xx_hal_i2s.o" -o "HAL_Driver/Src/stm32f0xx_hal_i2s.o" "../HAL_Driver/Src/stm32f0xx_hal_i2s.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_i2s.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_irda.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_irda.d" -MT"HAL_Driver/Src/stm32f0xx_hal_irda.o" -o "HAL_Driver/Src/stm32f0xx_hal_irda.o" "../HAL_Driver/Src/stm32f0xx_hal_irda.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_irda.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_iwdg.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_iwdg.d" -MT"HAL_Driver/Src/stm32f0xx_hal_iwdg.o" -o "HAL_Driver/Src/stm32f0xx_hal_iwdg.o" "../HAL_Driver/Src/stm32f0xx_hal_iwdg.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_iwdg.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_msp_template.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_msp_template.d" -MT"HAL_Driver/Src/stm32f0xx_hal_msp_template.o" -o "HAL_Driver/Src/stm32f0xx_hal_msp_template.o" "../HAL_Driver/Src/stm32f0xx_hal_msp_template.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_msp_template.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_pcd.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_pcd.d" -MT"HAL_Driver/Src/stm32f0xx_hal_pcd.o" -o "HAL_Driver/Src/stm32f0xx_hal_pcd.o" "../HAL_Driver/Src/stm32f0xx_hal_pcd.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_pcd.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_pcd_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_pcd_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_pcd_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_pcd_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_pcd_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_pcd_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_pwr.d" -MT"HAL_Driver/Src/stm32f0xx_hal_pwr.o" -o "HAL_Driver/Src/stm32f0xx_hal_pwr.o" "../HAL_Driver/Src/stm32f0xx_hal_pwr.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_pwr.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_rcc.d" -MT"HAL_Driver/Src/stm32f0xx_hal_rcc.o" -o "HAL_Driver/Src/stm32f0xx_hal_rcc.o" "../HAL_Driver/Src/stm32f0xx_hal_rcc.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_rcc.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_rtc.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_rtc.d" -MT"HAL_Driver/Src/stm32f0xx_hal_rtc.o" -o "HAL_Driver/Src/stm32f0xx_hal_rtc.o" "../HAL_Driver/Src/stm32f0xx_hal_rtc.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_rtc.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_rtc_ex.d" -MT"HAL_Driver/Src/stm32f0xx_hal_rtc_ex.o" -o "HAL_Driver/Src/stm32f0xx_hal_rtc_ex.o" "../HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f0xx_hal_smartcard.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Release
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32F0 -DSTM32F091RCTx -DNUCLEO_F091RC -DSTM32 -DUSE_HAL_DRIVER -DSTM32F091xC -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/Utilities/STM32F0xx-Nucleo" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/nucleo-f091rc_hal_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f0xx_hal_smartcard.d" -MT"HAL_Driver/Src/stm32f0xx_hal_smartcard.o" -o "HAL_Driver/Src/stm32f0xx_hal_smartcard.o" "../HAL_Driver/Src/stm32f0xx_hal_smartcard.c"
+make: *** [HAL_Driver/Src/stm32f0xx_hal_smartcard.o] Terminated
+Command canceled
+
+06:55:36 Build Cancelled (took 5s.836ms)
+

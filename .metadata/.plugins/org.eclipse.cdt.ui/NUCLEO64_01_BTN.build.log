@@ -1,0 +1,23 @@
+17:26:25 **** Incremental Build of configuration Debug for project NUCLEO64_01_BTN ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_01_BTN/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F446xx -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_01_BTN/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_01_BTN/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_01_BTN/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_01_BTN/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64_01_BTN/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: NUCLEO64_01_BTN.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F446RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "NUCLEO64_01_BTN.elf" @"objects.list"   -lm
+Finished building target: NUCLEO64_01_BTN.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "NUCLEO64_01_BTN.elf" "NUCLEO64_01_BTN.bin"
+arm-none-eabi-size "NUCLEO64_01_BTN.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6060	     20	   1636	   7716	   1e24	NUCLEO64_01_BTN.elf
+ 
+
+17:26:26 Build Finished (took 817ms)
+

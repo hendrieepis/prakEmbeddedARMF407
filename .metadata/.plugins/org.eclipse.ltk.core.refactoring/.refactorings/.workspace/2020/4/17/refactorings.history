@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 8 resources" deleteContents="false" description="Delete 8 resources" element1="/p05a-State_Time2-lite/HAL_Driver/STM32F410Rx_User_Manual.chm" element2="/p05a-State_Time2-lite/HAL_Driver/STM32F411xE_User_Manual.chm" element3="/p05a-State_Time2-lite/HAL_Driver/STM32F412Zx_User_Manual.chm" element4="/p05a-State_Time2-lite/HAL_Driver/STM32F417xx_User_Manual.chm" element5="/p05a-State_Time2-lite/HAL_Driver/STM32F423xx_User_Manual.chm" element6="/p05a-State_Time2-lite/HAL_Driver/STM32F439xx_User_Manual.chm" element7="/p05a-State_Time2-lite/HAL_Driver/STM32F446xx_User_Manual.chm" element8="/p05a-State_Time2-lite/HAL_Driver/STM32F479xx_User_Manual.chm" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1587632797914"/>
+</session>

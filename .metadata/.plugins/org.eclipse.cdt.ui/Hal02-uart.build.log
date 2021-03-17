@@ -1,0 +1,6 @@
+06:36:15 **** Incremental Build of configuration Release for project Hal02-uart ****
+make all 
+make: Nothing to be done for `all'.
+
+06:36:15 Build Finished (took 71ms)
+

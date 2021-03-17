@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="614"/>
+		<item key="DIALOG_Y_ORIGIN" value="69"/>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".png"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.ui.browser.editorSupport"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="PreferencesImportWizard">
+		<item key="" value="/home/hendri/Downloads/RainbowDrops.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/home/hendri/Downloads/RainbowDrops.epf"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_WIDTH" value="945"/>
+		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|9.0|0|GTK|1|"/>
+		<item key="DIALOG_HEIGHT" value="743"/>
+		<item key="DIALOG_X_ORIGIN" value="32"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/home/hendri/Desktop/p01.zip"/>
+			<item value="/home/hendri/Desktop/p05a-State_time_new.zip"/>
+			<item value="/home/hendri/Desktop/VendingDesktopPC.zip"/>
+			<item value="/home/hendri/Desktop/State_Time.zip"/>
+			<item value="/home/hendri/Desktop/SeOS.zip"/>
+			<item value="/home/hendri/Desktop/ProjectEmbeddedP3.zip"/>
+			<item value="/home/hendri/Desktop/ProjectEmbeddedP1.zip"/>
+			<item value="/home/hendri/Desktop/ProjectEmbeddedSTM32F40-Disc-2020.zip"/>
+			<item value="/home/hendri/Desktop/ProjectEmbeddedAll2020.zip"/>
+			<item value="/home/hend/Desktop/p05-stateInputDoorLock-litezip.zip"/>
+			<item value="/home/hend/Desktop/p03-timeout.zip"/>
+			<item value="/media/hendri/CCSA_X64FRE_EN-GB_DV5/Modul1.zip"/>
+			<item value="/media/hendri/70D4-0080/Materi-PraktikumEMbedded/Modul1.zip"/>
+			<item value="/home/hendri/Desktop/LabPractiseEmbedded2019.zip"/>
+			<item value="/media/hendri/TOSHIBA/embedded/seos_statecmachine.zip"/>
+			<item value="/media/hendri/ARAGEHARA/prak-embedded/modul1.zip"/>
+			<item value="/media/hendri/8E7B-A2B0/praktikum-embedded/modul1.zip"/>
+			<item value="/media/hendri/USB DISK/modul-embedded/modul1-objectCounting.zip"/>
+			<item value="/media/hendri/IFTIANI/prak-embedded/modul1-objectCounting.zip"/>
+			<item value="/media/hendri/3EB2D6FCB2D6B79B/sch_timer.zip"/>
+		</list>
+	</section>
+</section>

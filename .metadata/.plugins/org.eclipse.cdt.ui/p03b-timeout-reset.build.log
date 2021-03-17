@@ -1,0 +1,6 @@
+16:04:23 **** Incremental Build of configuration Debug for project p03b-timeout-reset ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:04:23 Build Finished (took 316ms)
+

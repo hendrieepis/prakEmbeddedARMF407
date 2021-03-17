@@ -1,0 +1,10 @@
+16:17:54 **** Incremental Build of configuration Debug for project p01a-blinky ****
+make all 
+arm-none-eabi-size   p01a-blinky.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5220	     12	   1060	   6292	   1894	p01a-blinky.elf
+Finished building: default.size.stdout
+ 
+
+16:17:54 Build Finished. 0 errors, 0 warnings. (took 160ms)
+

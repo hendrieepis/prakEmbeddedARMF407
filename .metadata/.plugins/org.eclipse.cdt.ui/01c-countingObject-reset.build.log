@@ -1,0 +1,7 @@
+06:56:10 **** Clean-only build of configuration Debug for project 01c-countingObject-reset ****
+make clean 
+rm -rf *
+ 
+
+06:56:10 Build Finished (took 66ms)
+

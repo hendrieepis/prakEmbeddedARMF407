@@ -1,0 +1,7 @@
+04:11:50 **** Clean-only build of configuration Debug for project M04-F4Disc-inputNonBlocking ****
+make clean 
+rm -rf *
+ 
+
+04:11:51 Build Finished. 0 errors, 0 warnings. (took 987ms)
+

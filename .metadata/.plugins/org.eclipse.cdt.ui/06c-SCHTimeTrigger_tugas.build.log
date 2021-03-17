@@ -1,0 +1,7 @@
+05:21:36 **** Clean-only build of configuration Debug for project 06c-SCHTimeTrigger_tugas ****
+make clean 
+rm -rf *
+ 
+
+05:21:37 Build Finished (took 727ms)
+

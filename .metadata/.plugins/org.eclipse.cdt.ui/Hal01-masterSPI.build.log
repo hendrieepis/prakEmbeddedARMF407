@@ -1,0 +1,6 @@
+10:15:15 **** Incremental Build of configuration Release for project Hal01-masterSPI ****
+make all 
+make: Nothing to be done for `all'.
+
+10:15:15 Build Finished (took 116ms)
+

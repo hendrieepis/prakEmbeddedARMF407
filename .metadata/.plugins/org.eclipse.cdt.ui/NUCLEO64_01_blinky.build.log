@@ -1,0 +1,7 @@
+04:12:01 **** Clean-only build of configuration Debug for project NUCLEO64_01_blinky ****
+make clean 
+rm -rf *
+ 
+
+04:12:02 Build Finished. 0 errors, 0 warnings. (took 773ms)
+

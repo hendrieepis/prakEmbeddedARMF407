@@ -1,0 +1,6 @@
+12:46:27 **** Clean-only build of configuration Release for project testard ****
+make clean 
+make: *** No rule to make target `clean'.  Stop.
+
+12:46:27 Build Finished (took 64ms)
+

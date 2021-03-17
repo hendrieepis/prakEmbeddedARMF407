@@ -1,0 +1,7 @@
+04:12:06 **** Clean-only build of configuration Debug for project NUCLEO64_07_UartBlocking ****
+make clean 
+rm -rf *
+ 
+
+04:12:07 Build Finished. 0 errors, 0 warnings. (took 825ms)
+

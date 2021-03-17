@@ -1,0 +1,14 @@
+07:04:47 **** Build of configuration Release for project STD_01 ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/STD_01/Release
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DSTM32F40_41xxx -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib" -I"/home/hendri/MyWorkspace/workspaceAC6/STD_01/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/Utilities" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/StdPeriph_Driver/inc" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6/stm32f4discovery_stdperiph_lib/CMSIS/device" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:1:27: fatal error: stm32f4xx_hal.h: No such file or directory
+ #include "stm32f4xx_hal.h"
+                           ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+
+07:04:47 Build Finished (took 120ms)
+

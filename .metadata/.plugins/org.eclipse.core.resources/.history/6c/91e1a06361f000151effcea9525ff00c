@@ -1,0 +1,79 @@
+src/main.o: ../src/main.c \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device/stm32f4xx.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cm4.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cmInstr.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cmFunc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cmSimd.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device/system_stm32f4xx.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_conf.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_adc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_crc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_dbgmcu.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_dma.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_exti.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_flash.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_gpio.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_i2c.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_iwdg.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_pwr.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_rcc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_rtc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_sdio.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_spi.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_syscfg.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_tim.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_usart.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_wwdg.h \
+ /home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/misc.h
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device/stm32f4xx.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cm4.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cmInstr.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cmFunc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/core/core_cmSimd.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/CMSIS/device/system_stm32f4xx.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_conf.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_adc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_crc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_dbgmcu.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_dma.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_exti.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_flash.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_gpio.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_i2c.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_iwdg.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_pwr.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_rcc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_rtc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_sdio.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_spi.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_syscfg.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_tim.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_usart.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/stm32f4xx_wwdg.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/nucleo-f401re_stdperiph_lib/StdPeriph_Driver/inc/misc.h:

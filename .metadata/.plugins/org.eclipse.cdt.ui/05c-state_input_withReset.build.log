@@ -1,0 +1,6 @@
+15:49:45 **** Clean-only build of configuration Debug for project 05c-state_input_withReset ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+
+15:49:45 Build Finished (took 179ms)
+

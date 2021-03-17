@@ -1,0 +1,80 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Ac6
+  * @version V1.0
+  * @date    01-December-2013
+  * @brief   Default main function.
+  ******************************************************************************
+*/
+
+
+#include "stm32f4xx.h"
+#include "stm32f4_discovery.h"
+#include "device.h"
+#include "hardwareinit.h"
+			
+/* Private variables ---------------------------------------------------------*/
+UART_HandleTypeDef huart2;
+uint8_t count=0;
+/* Private variables ---------------------------------------------------------*/
+
+/* Private define ------------------------------------------------------------*/
+
+/* USER CODE BEGIN Private defines */
+
+
+/* Private function prototypes -----------------------------------------------*/
+
+
+//counter.h dan counter.c
+void counterShow(void);
+void CounterUpdate(void);
+
+// sensor.c dan senspr.h
+uint8_t sensorDetected(void);
+
+/* Private function prototypes -----------------------------------------------*/
+
+
+int main(void)
+{
+	HAL_Init();
+	SystemClock_Config();
+	MX_GPIO_Init();
+	while(1){
+		/* User code here      -----------------------------------------------*/
+
+        counterShow();
+        if(sensorDetected()){
+        	CounterUpdate();
+        }
+		/* User code here      -----------------------------------------------*/
+	}
+}
+uint8_t sensorDetected(void){
+	uint8_t FlagDetect=0;
+	if(HAL_GPIO_ReadPin(pbOk_GPIO_Port,pbOk_Pin)== GPIO_PIN_RESET) {
+		HAL_Delay(20);
+		if(HAL_GPIO_ReadPin(pbOk_GPIO_Port,pbOk_Pin)== GPIO_PIN_RESET) {
+			while(HAL_GPIO_ReadPin(pbOk_GPIO_Port,pbOk_Pin)== GPIO_PIN_RESET);
+			FlagDetect=1;
+		}
+	}
+	return FlagDetect;
+}
+void CounterUpdate(void){
+	++count;
+}
+void counterShow(void){
+	//Counter Show
+	HAL_GPIO_WritePin(bar0_GPIO_Port,bar0_Pin,count & (1<<0));
+	HAL_GPIO_WritePin(bar1_GPIO_Port,bar1_Pin,count & (1<<1));
+	HAL_GPIO_WritePin(bar2_GPIO_Port,bar2_Pin,count & (1<<2));
+	HAL_GPIO_WritePin(bar3_GPIO_Port,bar3_Pin,count & (1<<3));
+	HAL_GPIO_WritePin(bar4_GPIO_Port,bar4_Pin,count & (1<<4));
+	HAL_GPIO_WritePin(bar5_GPIO_Port,bar5_Pin,count & (1<<5));
+	HAL_GPIO_WritePin(bar6_GPIO_Port,bar6_Pin,count & (1<<6));
+	HAL_GPIO_WritePin(bar7_GPIO_Port,bar7_Pin,count & (1<<7));
+}
+

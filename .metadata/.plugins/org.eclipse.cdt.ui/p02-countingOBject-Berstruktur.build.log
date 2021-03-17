@@ -1,0 +1,10 @@
+16:29:30 **** Incremental Build of configuration Debug for project p02-countingOBject-Berstruktur ****
+make all 
+arm-none-eabi-size   p02-countingOBject-Berstruktur.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	    112	     36	   5308	   14bc	p02-countingOBject-Berstruktur.elf
+Finished building: default.size.stdout
+ 
+
+16:29:31 Build Finished. 0 errors, 0 warnings. (took 161ms)
+

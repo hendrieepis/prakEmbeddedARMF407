@@ -1,0 +1,7 @@
+07:32:11 **** Clean-only build of configuration Debug for project p04b-SEOSObjectDetected-reset-exam ****
+make clean 
+rm -rf *
+ 
+
+07:32:12 Build Finished (took 1s.166ms)
+

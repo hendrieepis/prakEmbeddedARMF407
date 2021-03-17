@@ -1,0 +1,21 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Nov 17, 2019
+ *      Author: hendri
+ */
+#include <iostream>
+using namespace std;
+int main (void){
+	long *p;
+	long X;
+	p= &X;
+	X=10;
+	cout << "Nilai X: "<<X<<endl;
+	cout << "Nilai *p: "<<*p<<endl;
+
+
+  cout<<"test";
+
+}
+

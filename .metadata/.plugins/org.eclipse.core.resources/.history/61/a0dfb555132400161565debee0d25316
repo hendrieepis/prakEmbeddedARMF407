@@ -1,0 +1,40 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Ac6
+  * @version V1.0
+  * @date    01-December-2013
+  * @brief   Default main function.
+  ******************************************************************************
+*/
+
+
+#include "stm32f4xx.h"
+#include "stm32f4_discovery.h"
+			
+void Delay(__IO uint32_t delayparm);
+int main() {
+	// RCC->AHB1RSTR --> reset PORTD
+    *((uint32_t volatile *)(RCC_BASE+0x10))=RCC_AHB1RSTR_GPIODRST|RCC_AHB1RSTR_GPIOARST;
+    *((uint32_t volatile *)(RCC_BASE+0x10))=0x00; // Exit reset state RCC->AHB1RSTR
+    *((uint32_t volatile *)(RCC_BASE+0x30))=RCC_AHB1Periph_GPIOD|RCC_AHB1ENR_GPIOAEN; // RCC->AHB1ENR
+    //GPIOD->MODER-> PORTD.(12,13,14,15) Output
+    *((uint32_t volatile *)(GPIOD_BASE))|=  ((1UL << 2*12) |
+    		                                (1UL << 2*13)  |
+    		                                (1UL << 2*14)  |
+    		                                (1UL << 2*15)  );
+	while(1)
+	{
+		if ( (*((uint32_t volatile *)(GPIOA_BASE+0x10)) & (1<<0))){
+			//GPIOD->BSRRL  -->set  PORTD.(12,13,14,15)
+			*((uint32_t volatile *)(0x40020C18))=GPIO_Pin_15|GPIO_Pin_14|GPIO_Pin_12|GPIO_Pin_11;
+		} else {
+			//GPIOD->BSRRL  -->set  PORTD.(12,13,14,15)
+			*((uint32_t volatile *)(0x40020C1A))=GPIO_Pin_15|GPIO_Pin_14|GPIO_Pin_12|GPIO_Pin_11;
+		}
+    }
+}
+
+void Delay(__IO uint32_t delayparm) {
+	while (delayparm--);
+}

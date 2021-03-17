@@ -1,0 +1,21 @@
+19:21:19 **** Build of configuration Debug for project 04a-SEOSObjectDetected ****
+make all 
+Building file: ../startup/startup_stm32f407xx.s
+Invoking: MCU GCC Assembler
+/home/hendri/MyWorkspace/workspaceAC6/04a-SEOSObjectDetected/Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"/home/hendri/MyWorkspace/workspaceAC6/04a-SEOSObjectDetected/inc" -g -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+Finished building: ../startup/startup_stm32f407xx.s
+ 
+Building file: ../src/counter.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/04a-SEOSObjectDetected/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceAC6/04a-SEOSObjectDetected/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/counter.d" -MT"src/counter.o" -o "src/counter.o" "../src/counter.c"
+../src/counter.c:10:31: fatal error: stm32f4_discovery.h: No such file or directory
+src/subdir.mk:39: recipe for target 'src/counter.o' failed
+ #include "stm32f4_discovery.h"
+                               ^
+compilation terminated.
+make: *** [src/counter.o] Error 1
+
+19:21:20 Build Finished (took 222ms)
+

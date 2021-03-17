@@ -1,0 +1,13 @@
+20:56:39 **** Incremental Build of configuration Debug for project test_stdPeriph ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/test_stdPeriph/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -I"/home/hendri/MyWorkspace/workspaceAC6/test_stdPeriph/inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:12:31: fatal error: stm32f4_discovery.h: No such file or directory
+compilation terminated.
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+
+20:56:39 Build Finished (took 131ms)
+

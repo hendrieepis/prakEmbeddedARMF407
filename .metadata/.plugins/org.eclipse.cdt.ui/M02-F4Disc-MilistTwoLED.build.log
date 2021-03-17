@@ -1,0 +1,7 @@
+04:11:48 **** Clean-only build of configuration Debug for project M02-F4Disc-MilistTwoLED ****
+make clean 
+rm -rf *
+ 
+
+04:11:49 Build Finished. 0 errors, 0 warnings. (took 824ms)
+

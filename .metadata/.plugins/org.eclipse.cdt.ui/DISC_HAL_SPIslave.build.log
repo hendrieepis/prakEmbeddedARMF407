@@ -1,0 +1,6 @@
+19:47:12 **** Incremental Build of configuration Release for project DISC_HAL_SPIslave ****
+make all 
+make: Nothing to be done for `all'.
+
+19:47:12 Build Finished (took 73ms)
+

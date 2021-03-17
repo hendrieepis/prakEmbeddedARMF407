@@ -1,0 +1,88 @@
+Src/stm32f4xx_it.o: ../Src/stm32f4xx_it.c \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Inc/stm32f4xx_hal_conf.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Inc/main.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cm4.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cmInstr.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/cmsis_gcc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cmFunc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cmSimd.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ /home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Inc/stm32f4xx_it.h
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Inc/stm32f4xx_hal_conf.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Inc/main.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cm4.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cmInstr.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/cmsis_gcc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cmFunc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Include/core_cmSimd.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
+
+/home/hendri/MyWorkspace/workspaceAC6/NUCLEO64-14_extINT/Inc/stm32f4xx_it.h:

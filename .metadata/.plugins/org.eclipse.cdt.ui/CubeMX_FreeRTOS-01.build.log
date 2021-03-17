@@ -1,0 +1,23 @@
+15:01:34 **** Incremental Build of configuration Debug for project CubeMX_FreeRTOS-01 ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Middlewares/Third_Party/FreeRTOS/Source/include" -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceAC6/CubeMX_FreeRTOS-01/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: CubeMX_FreeRTOS-01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F407VGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "CubeMX_FreeRTOS-01.elf" @"objects.list"  
+Finished building target: CubeMX_FreeRTOS-01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "CubeMX_FreeRTOS-01.elf" "CubeMX_FreeRTOS-01.bin"
+arm-none-eabi-size "CubeMX_FreeRTOS-01.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7160	     20	  17324	  24504	   5fb8	CubeMX_FreeRTOS-01.elf
+ 
+
+15:01:35 Build Finished (took 429ms)
+

@@ -1,0 +1,48 @@
+16:46:40 **** Incremental Build of configuration Debug for project MXFreeRTOS ****
+make all 
+Building file: ../Src/freertos.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/freertos.d" -MT"Src/freertos.o" -o "Src/freertos.o" "../Src/freertos.c"
+Finished building: ../Src/freertos.c
+ 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building file: ../Src/stm32f4xx_hal_msp.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f4xx_hal_msp.d" -MT"Src/stm32f4xx_hal_msp.o" -o "Src/stm32f4xx_hal_msp.o" "../Src/stm32f4xx_hal_msp.c"
+Finished building: ../Src/stm32f4xx_hal_msp.c
+ 
+Building file: ../Src/stm32f4xx_hal_timebase_TIM.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f4xx_hal_timebase_TIM.d" -MT"Src/stm32f4xx_hal_timebase_TIM.o" -o "Src/stm32f4xx_hal_timebase_TIM.o" "../Src/stm32f4xx_hal_timebase_TIM.c"
+Finished building: ../Src/stm32f4xx_hal_timebase_TIM.c
+ 
+Building file: ../Src/stm32f4xx_it.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/MXFreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f4xx_it.d" -MT"Src/stm32f4xx_it.o" -o "Src/stm32f4xx_it.o" "../Src/stm32f4xx_it.c"
+Finished building: ../Src/stm32f4xx_it.c
+ 
+Building target: MXFreeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F407VGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "MXFreeRTOS.elf" @"objects.list"  
+/opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.7.0.201602291252/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 08000000
+Finished building target: MXFreeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MXFreeRTOS.elf" "MXFreeRTOS.bin"
+arm-none-eabi-size "MXFreeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+    188	      8	   1568	   1764	    6e4	MXFreeRTOS.elf
+ 
+
+16:46:41 Build Finished (took 914ms)
+

@@ -1,0 +1,17 @@
+12:07:32 **** Incremental Build of configuration Debug for project NUCLEO64_15_extINT_Ultrasonic ****
+make all 
+Building target: NUCLEO64_15_extINT_Ultrasonic.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F446RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "NUCLEO64_15_extINT_Ultrasonic.elf" @"objects.list"   -lm
+Finished building target: NUCLEO64_15_extINT_Ultrasonic.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "NUCLEO64_15_extINT_Ultrasonic.elf" "NUCLEO64_15_extINT_Ultrasonic.bin"
+arm-none-eabi-size "NUCLEO64_15_extINT_Ultrasonic.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10740	    120	   1752	  12612	   3144	NUCLEO64_15_extINT_Ultrasonic.elf
+ 
+
+12:07:32 Build Finished (took 629ms)
+

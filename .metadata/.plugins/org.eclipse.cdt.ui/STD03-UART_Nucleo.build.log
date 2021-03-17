@@ -1,0 +1,6 @@
+02:09:38 **** Incremental Build of configuration Release for project STD03-UART_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+
+02:09:38 Build Finished (took 67ms)
+

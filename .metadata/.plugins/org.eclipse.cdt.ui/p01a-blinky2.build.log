@@ -1,0 +1,6 @@
+04:53:19 **** Incremental Build of configuration Debug for project p01a-blinky2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+04:53:20 Build Finished (took 367ms)
+

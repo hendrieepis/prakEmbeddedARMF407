@@ -1,0 +1,6 @@
+11:12:28 **** Incremental Build of configuration Debug for project RTOS_Project_message ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:12:28 Build Finished (took 424ms)
+

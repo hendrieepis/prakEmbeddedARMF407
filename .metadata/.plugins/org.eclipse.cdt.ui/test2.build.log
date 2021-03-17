@@ -1,0 +1,22 @@
+14:37:22 **** Programming project test2 on chip ****
+/opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.openocd.linux64_1.18.0.201807130628/tools/openocd/bin/openocd -f stm32.flash.7643952291948450560.cfg -s /home/hendri/MyWorkspace/workspaceAC6/test2 -s /opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_2.2.0.201807130628/resources/openocd/st_scripts -c "program Debug/test2.elf verify exit" 
+Open On-Chip Debugger 0.10.0-dev-00010-g96aab7b (2018-07-13-06:37)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Warn : Could not determine executable path, using configured BINDIR.
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter_nsrst_delay: 100
+adapter speed: 950 kHz
+Info : clock speed 950 kHz
+Error: open failed (no matching adapter found)
+in procedure 'program' 
+in procedure 'init' called at file "embedded:startup.tcl", line 485
+in procedure 'ocd_bouncer'
+** OpenOCD init failed **
+shutdown command invoked
+
+
+14:37:23 Build Finished (took 93ms)
+

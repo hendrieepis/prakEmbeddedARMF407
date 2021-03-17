@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;p01b-countingObject-function3/inc/hadwareinit.h&apos; to &apos;hardwareinit.h&apos;" description="Rename resource &apos;hadwareinit.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/hadwareinit.h" name="hardwareinit.h" stamp="1522323230172" updateReferences="true"/>
+</session>

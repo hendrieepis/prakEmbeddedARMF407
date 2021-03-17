@@ -1,0 +1,6 @@
+17:18:42 **** Incremental Build of configuration Debug for project UART_Test ****
+make all 
+make: Nothing to be done for `all'.
+
+17:18:43 Build Finished (took 69ms)
+

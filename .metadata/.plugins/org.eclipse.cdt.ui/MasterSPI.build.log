@@ -1,0 +1,42 @@
+09:51:06 **** Programing project MasterSPI on chip ****
+/opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.openocd.linux64_1.7.0.201602291252/tools/openocd/bin/openocd -f stm32f4discovery.cfg -s /opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_1.7.0.201602121829/resources/openocd/scripts/st_board -s /opt/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_1.7.0.201602121829/resources/openocd/scripts -c "program Debug/MasterSPI.elf verify exit" 
+Open On-Chip Debugger 0.9.0-dev-dirty (2015-11-13-11:40)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : auto-selecting first available session transport "hla_swd". To override use 'transport select <transport>'.
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 2000 kHz
+adapter_nsrst_delay: 100
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : clock speed 1800 kHz
+Info : STLINK v2 JTAG v14 API v2 SWIM v0 VID 0x0483 PID 0x3748
+Info : using stlink api v2
+Info : Target voltage: 3.263872
+Info : stm32f4x.cpu: hardware has 6 breakpoints, 4 watchpoints
+target state: halted
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800022c msp: 0x20020000
+configuring PLL
+** Programming Started **
+auto erase enabled
+Info : device id = 0x10016413
+Info : flash size = 1024kbytes
+target state: halted
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x20000042 msp: 0x20020000
+wrote 16384 bytes from file Debug/MasterSPI.elf in 0.822562s (19.451 KiB/s)
+** Programming Finished **
+** Verify Started **
+target state: halted
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20020000
+verified 3920 bytes in 0.124035s (30.863 KiB/s)
+** Verified OK **
+shutdown command invoked
+
+09:51:08 Build Finished (took 1s.195ms)
+

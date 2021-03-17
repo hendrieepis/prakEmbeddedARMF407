@@ -1,0 +1,4 @@
+main.c:205:6:vTaskBlinky1	8	static
+main.c:219:6:vTaskBlinky2	8	static
+main.c:135:6:SystemClock_Config	104	static
+main.c:64:5:main	56	static

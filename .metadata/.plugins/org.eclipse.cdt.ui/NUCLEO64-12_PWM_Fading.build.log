@@ -1,0 +1,17 @@
+10:17:04 **** Build of configuration Debug for project NUCLEO64-12_PWM_Fading ****
+make all 
+Building target: NUCLEO64-12_PWM_Fading.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F446RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "NUCLEO64-12_PWM_Fading.elf" @"objects.list"   -lm
+Finished building target: NUCLEO64-12_PWM_Fading.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "NUCLEO64-12_PWM_Fading.elf" "NUCLEO64-12_PWM_Fading.bin"
+arm-none-eabi-size "NUCLEO64-12_PWM_Fading.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8596	     20	   1692	  10308	   2844	NUCLEO64-12_PWM_Fading.elf
+ 
+
+10:17:05 Build Finished (took 1s.76ms)
+

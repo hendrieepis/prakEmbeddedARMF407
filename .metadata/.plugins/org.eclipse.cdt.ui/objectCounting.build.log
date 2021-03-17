@@ -1,0 +1,15 @@
+15:10:03 **** Incremental Build of configuration Debug for project objectCounting ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F407xx -I"/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Middlewares/ST/STM32_USB_Host_Library/Core/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceAC6/objectCounting/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c:5:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'HCD_HandleTypeDef'?
+ UART_HandleTypeDef huart2;
+ ^~~~~~~~~~~~~~~~~~
+ HCD_HandleTypeDef
+Src/subdir.mk:39: recipe for target 'Src/main.o' failed
+make: *** [Src/main.o] Error 1
+
+15:10:03 Build Finished (took 565ms)
+

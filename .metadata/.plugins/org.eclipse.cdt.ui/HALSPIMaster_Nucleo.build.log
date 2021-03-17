@@ -1,0 +1,23 @@
+06:51:35 **** Incremental Build of configuration Debug for project HALSPIMaster_Nucleo ****
+make all 
+Building file: /home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Src/main.c
+Invoking: MCU GCC Compiler
+/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/SW4STM32/HALSPIMaster_Nucleo/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c99 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F401xE -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Drivers/CMSIS/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Inc"  -Os -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Application/User/main.d" -MT"Application/User/main.o" -o "Application/User/main.o" "/home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Src/main.c"
+Finished building: /home/hendri/MyWorkspace/workspaceSTMcubeMX/HALSPIMaster_Nucleo/Src/main.c
+ 
+Building target: HALSPIMaster_Nucleo.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F401RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "HALSPIMaster_Nucleo.elf" @"objects.list"  
+Finished building target: HALSPIMaster_Nucleo.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "HALSPIMaster_Nucleo.elf" "HALSPIMaster_Nucleo.bin"
+arm-none-eabi-size "HALSPIMaster_Nucleo.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2764	     12	   1660	   4436	   1154	HALSPIMaster_Nucleo.elf
+ 
+
+06:51:37 Build Finished (took 1s.929ms)
+
